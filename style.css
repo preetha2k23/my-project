@@ -423,6 +423,24 @@ h3{
     z-index: 2;
 }
 
+/* ------EDUCATION BOX-------- */
+
+.education-section{
+    display: flex;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.education-section .college{
+    font-weight: 600;
+    font-size: 18px;
+}
+.education-section .date{
+    margin:0 50px 0 100px;
+}
+
 /* ----- CONTACT BOX ----- */
 .contact-info{
     position: relative;
